@@ -26,12 +26,14 @@ public class Cart {
     private void addToCart(Product product) {
         cartItems.add(product);
     }
+
     public void removeProductByProductID(int productID) {
         Product prod = getProductByProductID(productID);
         cartItems.remove(prod);
     }
+
     void printCartItems() {
-        for (Product prod: cartItems) {
+        for (Product prod : cartItems) {
             System.out.println(prod.getName());
         }
     }
