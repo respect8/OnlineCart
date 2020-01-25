@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39e0f673-ab21-47af-ab28-b77150955c6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/shoppingcart/UserInformations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/shoppingcart/UserUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/shoppingcart/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OnlineShopping/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnlineShopping/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OnlineShopping/collections/shoppingcart/UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnlineShopping/collections/shoppingcart/CartUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnlineShopping/collections/shoppingcart/CartUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnlineShopping/collections/shoppingcart/UserInformations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnlineShopping/collections/shoppingcart/UserUI.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/shoppingcart/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/shoppingcart/CartUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/shoppingcart/CartUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/shoppingcart/CartUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/shoppingcart/UserInformations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/shoppingcart/UserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/shoppingcart/Users.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
