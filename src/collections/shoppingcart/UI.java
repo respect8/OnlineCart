@@ -25,7 +25,7 @@ public class UI {
         cart.addProductToCartByProductID(pid);
 
     }
-    private int getUserInput(){
+    private int getUserInput()throws NumberFormatException{
         Scanner in = new Scanner(System.in);
         ch=Integer.parseInt(in.nextLine());
         return ch;
@@ -48,7 +48,7 @@ public class UI {
             );
         }
     }
-    private void innerChoice1(){
+    public void innerChoice1(){
         switch(ch){
             case 1:
                 addProductToCart();
@@ -57,9 +57,31 @@ public class UI {
             case 2:
                 removeProductFromCart();
                 break;
-            case 0:
+            default:
                 break;
         }
+    }
+    public void menu(){
+        do{
+            startScreen();
+            getUserInput();
+            switch(ch){
+                case 1:
+                    displayStoreProducts();
+                    storeProductsMenu();
+                    getUserInput();
+                    innerChoice1();
+                    break;
+                case 2:
+                    showCart();
+                    break;
+                case 0:
+                    System.exit(0);
+                    break;
+                default:
+                    break;
+            }
+        }while(ch!=0);
     }
 
 
