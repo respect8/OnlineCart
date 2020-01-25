@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import static java.awt.SystemColor.menu;
 
-public class UI {
+public class CartUI extends UserUI{
 
     Cart cart = new Cart();
     private int ch=0;
@@ -13,6 +13,7 @@ public class UI {
     public void startScreen(){
         System.out.println("1. Display store products");
         System.out.println("2. Display cart");
+        System.out.println("5. Move to user details and delivery");
         System.out.println("0. Exit");
     }
     public void storeProductsMenu(){
@@ -61,7 +62,7 @@ public class UI {
                 break;
         }
     }
-    public void menu(){
+    public void cartMenu(){
         do{
             startScreen();
             getUserInput();
@@ -77,6 +78,9 @@ public class UI {
                     break;
                 case 0:
                     System.exit(0);
+                    break;
+                case 5:
+                    userDetails();
                     break;
                 default:
                     break;
