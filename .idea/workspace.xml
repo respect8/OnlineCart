@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="39e0f673-ab21-47af-ab28-b77150955c6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/shoppingcart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/shoppingcart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/shoppingcart/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/shoppingcart/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnlineShopping/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnlineShopping/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnlineShopping/collections/shoppingcart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnlineShopping/collections/shoppingcart/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnlineShopping/collections/shoppingcart/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnlineShopping/collections/shoppingcart/UI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collections/shoppingcart/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/shoppingcart/UI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

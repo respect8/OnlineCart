@@ -1,5 +1,6 @@
 package collections.shoppingcart;
 
+import java.util.List;
 import java.util.Scanner;
 
 import static java.awt.SystemColor.menu;
@@ -28,6 +29,37 @@ public class UI {
         Scanner in = new Scanner(System.in);
         ch=Integer.parseInt(in.nextLine());
         return ch;
+    }
+    private void showCart(){
+        cart.printCartItems();
+    }
+    private void removeProductFromCart(){
+        int pid=getUserInput();
+        cart.removeProductByProductID(pid);
+    }
+    private void displayStoreProducts(){
+        List<Product> products = new Products().getProducts();
+        for (Product prod:products){
+            System.out.println(
+                    prod.getProductID()+"- "+
+                            prod.getName()+ " "+
+                            prod.getPrice()+ " "+
+                            prod.getStock()
+            );
+        }
+    }
+    private void innerChoice1(){
+        switch(ch){
+            case 1:
+                addProductToCart();
+                showCart();
+                break;
+            case 2:
+                removeProductFromCart();
+                break;
+            case 0:
+                break;
+        }
     }
 
 
