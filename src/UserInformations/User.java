@@ -1,4 +1,6 @@
-package collections.shoppingcart;
+package UserInformations;
+
+import java.util.Scanner;
 
 public class User {
     private String name;
@@ -13,6 +15,7 @@ public class User {
 
     public User() {
     }
+    Scanner in = new Scanner(System.in);
 
     public User(String name, String surname, String email, String city, String street, int buildingNumber, int flatNumber, int phoneNumber, Integer userID) {
         this.name = name;

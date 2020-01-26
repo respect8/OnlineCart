@@ -1,9 +1,11 @@
 package collections.shoppingcart;
 
+import UserInformations.UsersDataBase;
+
 import java.util.List;
 import java.util.Scanner;
 
-public class CartUI extends Users {
+public class CartUI extends UsersDataBase {
 
     Cart cart = new Cart();
     private int ch = 0;
@@ -84,9 +86,6 @@ public class CartUI extends Users {
                     break;
                 case 0:
                     System.exit(0);
-                    break;
-                case 5:
-                    userDetails();
                     break;
                 default:
                     break;
