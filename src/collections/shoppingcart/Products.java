@@ -10,7 +10,7 @@ public class Products {
         this.initStoreItems();
     }
 
-    public void initStoreItems() {
+    public final void initStoreItems() {
         String[] productNames = {"Soap", "Pen", "fork"};
         Double[] productPrice = {3d, 2d, 4d};
         Integer[] stock = {42, 35, 80};

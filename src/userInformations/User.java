@@ -1,11 +1,11 @@
-package UserInformations;
+package userInformations;
 
 import java.util.Scanner;
 
 public class User {
     private String name;
     private String surname;
-    private String email = "";
+    private String email ;
     private String city;
     private String street;
     private int buildingNumber;

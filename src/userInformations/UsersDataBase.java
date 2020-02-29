@@ -1,20 +1,21 @@
-package UserInformations;
-
-import UserInformations.User;
+package userInformations;
 
 import java.util.*;
 
 public class UsersDataBase {
-    Scanner in=new Scanner(System.in);
+    Scanner in = new Scanner(System.in);
     private final List<User> userList = new LinkedList<>();
 
-    public void addUser(User userInfo){
+    public void addUser(User userInfo) {
         userList.add(userInfo);
     }
-    public void removeUserInfo(User userInfo){
+
+    public void removeUserInfo(User userInfo) {
         userList.remove(Objects.requireNonNull(userInfo));
     }
-    public void showUserInfo(User userInfo){}
+
+    public void showUserInfo(User userInfo) {
+    }
 
 
     public boolean isValidEmailAddress(String email) {
